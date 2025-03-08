@@ -28,7 +28,7 @@ minikube kubectl -- logs vault
 ```
 ![image.png](files/image.png)    
 
-$$
+```mermaid
 flowchart TB
     subgraph Minikube
         subgraph Laptop
@@ -46,5 +46,4 @@ classDef k8s fill:#326ce5,stroke:#fff,stroke-width:4px,color:#fff;
 
 class vault_container,vault_pod,Minikube,Laptop plain
 class M k8s
-$$
-   
+``` 

@@ -90,9 +90,9 @@ spec:
 ```
 ![image.png](files/image.png)    
 ![image.png](files/image_b.png)    
-   
+ 
 
-$$
+```mermaid
 flowchart LR
     subgraph Minikube
             subgraph ReplicaSet
@@ -108,6 +108,4 @@ flowchart LR
     secret --cert--> ingress
     service --> pod1
     service --> pod2
-
-
-$$
+```

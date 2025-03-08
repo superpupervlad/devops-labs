@@ -60,7 +60,7 @@ spec:
 ```
 ![image.png](files/image.png)    
 
-$$
+```mermaid
 flowchart LR
     subgraph Minikube
             subgraph ReplicaSet
@@ -77,7 +77,4 @@ flowchart LR
     browser --port forward--> pod1
     service --> pod1
     service --> pod2
-
-
-$$
-   
+```

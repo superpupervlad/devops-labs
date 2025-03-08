@@ -63,7 +63,7 @@ Server started on port 3000
 
 ```
 
-$$
+```mermaid
 flowchart LR
     subgraph Minikube
         subgraph Deployment
@@ -78,7 +78,4 @@ flowchart LR
     browser --port forward--> pod1
     service --> pod1
     service --> pod2
-
-
-$$
-   
+```   
